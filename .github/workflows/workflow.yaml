@@ -4,11 +4,12 @@ on:
   push:
     branches:
       - dev
-      - main
+      # Add another branches if required
 
   pull_request:
     branches:
       - main
+      # Add another branches if required
 
 jobs:
   CI:
