@@ -2,13 +2,13 @@
 
 ## **_Table of contents_**
 
-- [Context]()
-- [Template structure]()
-  - [Structuring the various `src` files]()
-  - [Adding `meta-tags` to the project]()
-  - [Description of `package.json` scripts]()
-- [How to use it]()
-- [Technologies used in the template]()
+- [Context](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#context)
+- [Template structure](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#template-structure)
+  - [Structuring the various `src` folder](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#structuring-the-various-src-folder)
+  - [Adding `meta-tags` to the project](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#how-to-use-it)
+  - [Description of `package.json` scripts](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#how-to-use-it)
+- [How to use it](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#how-to-use-it)
+- [Technologies used in the template](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#technologies-used-in-the-template)
 
 ## Context
 
@@ -18,7 +18,7 @@ This template provides a minimal setup to get React Project. It lets you quickly
 
 This template has a fairly common structure, with a folder for CICD workflows, a public folder and a source folder. A few rules from the linter are used to add a framework to Typescript.
 
-### Structuring the various `src` files
+### Structuring the various `src` folder
 
 In the `src` folder, you can find various subfolders. These are all created in the same way. Namely, a subfolder with a descriptive name and an `index.tsx`. In the template, you'll find them under the name `Example...tsx`. Feel free to rename them or simply delete them to work with something other than `index.tsx`.
 
