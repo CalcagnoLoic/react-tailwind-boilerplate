@@ -20,11 +20,11 @@
 
 # Context
 
-This template provides a minimal setup to get React Project. It lets you quickly get started on a React project with tailwind and Vitest for unit testing. A CI starter is also included in the template.
+This template provides a minimal setup to get React Project. It lets you quickly get started on a React project with Tailwind and Vitest for unit testing. A CI starter is also included in the template.
 
 # Template structure
 
-This template has a fairly common structure, with a folder for CICD workflows, a public folder and a source folder. A few rules from the linter are used to add a working environment to Typescript.
+This template has a fairly common structure, with a folder for CICD workflows, a public folder and a source folder. A few rules from the linter are used to add a working environment to TypeScript.
 
 ## Structuring the various `src` folder
 
@@ -32,12 +32,12 @@ In the `src` folder, you can find various subfolders. These are all created in t
 
 What's more, a subfolder can itself have several subfolders. For example, the `User` component can be made up of `UserProfile`, `UserInformation`, `UserImg`, each with its own `index.tsx`.
 
-Let's have a look at the different files:
+Let's have a look at the different folders:
 
 - `components`: folder containing all application components
-- `container`: folder containing the application's container(s)
+- `containers`: folder containing the application's container(s)
 - `hooks`: folder containing the various custom hooks
-- `icons`: folder containing the project's icons in svg code form. Sub-folders for icon families such as `GeneralIcons`, `MediaIcons`, etc. are also possible.
+- `icons`: folder containing the project's icons in `svg` code form. Sub-folders for icon families such as `GeneralIcons`, `MediaIcons`, etc. are also possible.
 - `layout`: folder containing the project's layout(s), such as grids
 - `pages`: folder containing the page(s), whether a SPA or not
 - `typographies`: folder containing typographic components for title levels and paragraphs
@@ -45,26 +45,28 @@ Let's have a look at the different files:
 
 Please note that in the `Typographies` folder, as these components are generic, they are already fully written. Modify the `Headings` component if your title levels go beyond `h3`.
 
+Finally, in the `definitions.ts` file, you'll find all the useful interfaces and types.
+
 ## Adding `meta-tags` to the project
 
-In the `index.html` file, meta tags for author, description and keywords are already available. Feel free to modify them!
+In the `index.html` file, meta tags for author, description and keywords are already available. Feel free to modify them or simply add another!
 
 ## Description of `package.json` scripts
 
-Various scripts are already available in the package.json file, but don't hesitate to add your own if you have others!
+Various scripts are already available in the `package.json` file, but don't hesitate to add your own if you have others!
 
 Here are those already available:
 
-- `dev`: Simply launch the local development server on port 5173
-- `dev:compile`: Compiles typescript files in real time (thanks to the --watch flag) during dev phases to ensure that changes don't affect the linter.
+- `dev`: simply launch the local development server on port `5173`
+- `dev:compile`: compiles TypeScript files in real time (thanks to the `--watch` flag) during dev phases to ensure that changes don't affect the linter
 - `dev:format`: just formats files (<kbd>ctrl</kbd>+<kbd>s</kbd> works just as well with the prettier file)
-- `build`: quick command to send the project to production
+- `build`: vite command to send the project to production
 - `lint`: the project linter
 - `test`: vitest command to launch unit test suites
 
 # How to use it
 
-To use this template, click on `Use this template > Create a new repository`.
+To use this template, click on `Use this template > Create a new repository` at the top right of this page.
 
 Once you've done this, you'll be taken to the standard interface for creating a project, this time using the present template as a base.
 
@@ -81,12 +83,13 @@ And.... happy codings!! 🥳
 
 # Technologies used in the template
 
-- Workflows CICD
+- NodeJS | v.21.7
 - React | v.18.3
 - TailwindCSS | v.3.4
 - TypeScript | v.5.6
 - Vite | v.5.4
 - Vitest | v.2.1
+- Workflows CICD
 
 ---
 
