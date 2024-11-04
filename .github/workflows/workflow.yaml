@@ -1,0 +1,26 @@
+name: "Linter and test"
+
+on:
+  push:
+    branches:
+      - dev
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "21"
+          cache: "npm"
+
+      - run: npm i
+      - run: npm run lint
+      - run: npm run test
