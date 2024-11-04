@@ -1,6 +1,14 @@
 # React project with tailwind - Boilerplate
 
-## **_Table of contents_**
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,react,tailwind,vite" />
+  </a>
+</p>
+
+![GitHub last commit](https://img.shields.io/badge/last%20update-04%20/11%20/2024-red)
+
+# **_Table of contents_**
 
 - [Context](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#context)
 - [Template structure](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#template-structure)
@@ -10,15 +18,15 @@
 - [How to use it](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#how-to-use-it)
 - [Technologies used in the template](https://github.com/CalcagnoLoic/react-tailwind-boilerplate?tab=readme-ov-file#technologies-used-in-the-template)
 
-## Context
+# Context
 
 This template provides a minimal setup to get React Project. It lets you quickly get started on a React project with tailwind and Vitest for unit testing. A CI starter is also included in the template.
 
-## Template structure
+# Template structure
 
-This template has a fairly common structure, with a folder for CICD workflows, a public folder and a source folder. A few rules from the linter are used to add a framework to Typescript.
+This template has a fairly common structure, with a folder for CICD workflows, a public folder and a source folder. A few rules from the linter are used to add a working environment to Typescript.
 
-### Structuring the various `src` folder
+## Structuring the various `src` folder
 
 In the `src` folder, you can find various subfolders. These are all created in the same way. Namely, a subfolder with a descriptive name and an `index.tsx`. In the template, you'll find them under the name `Example...tsx`. Feel free to rename them or simply delete them to work with something other than `index.tsx`.
 
@@ -37,11 +45,11 @@ Let's have a look at the different files:
 
 Please note that in the `Typographies` folder, as these components are generic, they are already fully written. Modify the `Headings` component if your title levels go beyond `h3`.
 
-### Adding `meta-tags` to the project
+## Adding `meta-tags` to the project
 
 In the `index.html` file, meta tags for author, description and keywords are already available. Feel free to modify them!
 
-### Description of `package.json` scripts
+## Description of `package.json` scripts
 
 Various scripts are already available in the package.json file, but don't hesitate to add your own if you have others!
 
@@ -54,7 +62,7 @@ Here are those already available:
 - `lint`: the project linter
 - `test`: vitest command to launch unit test suites
 
-## How to use it
+# How to use it
 
 To use this template, click on `Use this template > Create a new repository`.
 
@@ -71,7 +79,7 @@ $ npm run dev
 
 And.... happy codings!! 🥳
 
-## Technologies used in the template
+# Technologies used in the template
 
 - Workflows CICD
 - React | v.18.3
