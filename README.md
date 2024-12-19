@@ -6,7 +6,7 @@
   </a>
 </p>
 
-![GitHub last commit](https://img.shields.io/badge/last%20update-04%20/11%20/2024-red)
+![GitHub last commit](https://img.shields.io/badge/last%20update-19%20/12%20/2024-red)
 
 # **_Table of contents_**
 
