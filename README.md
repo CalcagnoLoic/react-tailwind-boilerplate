@@ -30,7 +30,7 @@ This template has a fairly common structure, with a folder for CICD workflows, a
 
 In the `src` folder, you can find various subfolders. These are all created in the same way. Namely, a subfolder with a descriptive name and his file. In the template, you'll find them under the name `Example...tsx`. Feel free to rename them or simply delete them to work with something other than `Example...tsx`.
 
-What's more, a subfolder can itself have several subfolders. For example, the `User` component can be made up of `UserProfile`, `UserInformation`, `UserImg`, each with its own `index.tsx`.
+What's more, a subfolder can itself have several subfolders. For example, the `User` component can be made up of `UserProfile`, `UserInformation`, `UserImg`, each with its own file.
 
 Let's have a look at the different folders:
 
